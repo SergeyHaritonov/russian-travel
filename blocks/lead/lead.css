@@ -1,0 +1,31 @@
+.lead {
+  margin-top: 58px;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    margin-top: 48px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media (max-width: 785px) {
+  .lead {
+    margin-top: 48px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead {
+    margin-top: 48px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

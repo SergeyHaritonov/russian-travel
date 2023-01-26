@@ -1,0 +1,29 @@
+.place__paragraph {
+  color: #fff;
+  margin: 0;
+  max-width: 484px;
+  height: auto;
+  font-family: "Inter Regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.63;
+  margin-bottom: 26px;
+  grid-area: paragraph;
+}
+
+.place__paragraph:last-of-type {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph{
+    font-size: 16px;
+    margin-bottom: 25px; 
+  }
+}
+
+@media (max-width: 370px) {
+  .place__paragraph{
+    max-width: 288px;
+    padding: 16px;
+  }
+}

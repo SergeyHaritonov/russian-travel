@@ -1,0 +1,23 @@
+.lead__image {
+  margin: 64px auto 0;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 785px) {
+  .lead__image {
+    height: auto;
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__image {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,12 @@
+.place__link {
+  color: #fff;
+  font-family: "Inter Regular", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: underline;
+}
+
+.place__link:hover {
+  cursor: url("../../../vendor/Cursor/Imported\ Layers\ Copy\ 4.png"), pointer;
+  opacity: 0.8;
+}

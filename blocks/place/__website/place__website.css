@@ -1,0 +1,12 @@
+.place__website {
+  margin-bottom: 48px;
+  align-self: flex-end;
+  grid-area: website;
+}
+
+@media (max-width: 320px) {
+  .place__website{
+    padding-left: 16px;
+    margin-bottom: 32px;
+  }
+}
