@@ -1,10 +1,10 @@
-.page_content_slim {
+.page__content_slim {
   margin-left: 148px;
   margin-right: 148px;
 }
 
 @media (min-width: 1281px) {
-  .page_content_slim {
+  .page__content_slim {
     margin-left: auto;
     margin-right: auto;
   }
