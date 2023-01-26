@@ -9,4 +9,4 @@
 4. Figma
 
 
-### Страница доступна по [ссылке]
+### Страница доступна по [ссылке](https://sergeyharitonov.github.io/russian-travel/)
