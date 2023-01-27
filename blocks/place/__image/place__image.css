@@ -6,17 +6,11 @@
   grid-area: image;
 }
 
-@media (min-width: 1281px) {
-  .place__image {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .place__image {
-    max-width: 100%;
-  }
-}
+@media (max-width: 1024px) { 
+  .place__image { 
+    max-width: 100%; 
+  } 
+} 
 
 @media (max-width: 320px) {
   .place__image{
