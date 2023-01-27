@@ -3,6 +3,12 @@
   margin: 90px 148px 0;
 }
 
+@media (min-width: 1281px) {
+  .intro {
+    margin-left: calc((100% - 76.87%) / 2);
+  }
+}
+
 @media (max-width: 1024px) {
   .intro {
     margin-top: 92px;

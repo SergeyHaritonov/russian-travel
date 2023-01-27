@@ -6,6 +6,14 @@
   gap: 16px;
 }
 
+@media (min-width: 1281px) {
+  .photo-grid {
+    max-width: 92.5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (max-width: 1279px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
