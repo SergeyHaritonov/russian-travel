@@ -1,32 +1,30 @@
 .lead {
-  margin-top: 58px;
-  max-width: 984px;
+  margin: 58px 148px 0;
+  max-width: 76.87%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-@media (max-width: 1281px) {
+@media (min-width: 1281px) {
   .lead {
     margin-top: 48px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (max-width: 1024px) {
   .lead {
-    margin-top: 48px;
-    margin-left: 48px;
-    margin-right: 48px;
+    max-width: 90.6%;
+    margin: 48px 48px 0;
   }
 }
 
 @media (max-width: 785px) {
   .lead {
-    margin-top: 48px;
-    margin-left: 0;
-    margin-right: 0;
+    max-width: 100%;
+    margin: 48px 0 0;
   }
 }
 
